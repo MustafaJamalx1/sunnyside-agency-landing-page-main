@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.icon-change {
+  width: 160px;
+  height: 30px;
+  display: inline-block;
+  mask: url("./../public/images/logo.svg") no-repeat 50% 50%;
+  mask-size: cover;
+}
